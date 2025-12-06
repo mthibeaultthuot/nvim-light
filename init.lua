@@ -29,3 +29,6 @@ vim.cmd("syntax reset")
 vim.o.background = "dark" 
 
 
+vim.cmd("colorscheme vim")
+
+
