@@ -29,6 +29,6 @@ vim.cmd("syntax reset")
 vim.o.background = "dark" 
 
 
-vim.cmd("colorscheme vim")
+vim.cmd("colorscheme github_light_default")
 
 
