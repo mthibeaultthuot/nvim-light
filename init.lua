@@ -1,6 +1,3 @@
-vim.cmd("syntax reset")
-vim.o.background = "dark" 
-
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
@@ -24,11 +21,8 @@ vim.o.tabstop = 2
 
 require("lazy").setup("plugins")
 require("core.keymaps")
-
-vim.cmd("syntax reset")
-vim.o.background = "dark" 
-
-
-vim.cmd("colorscheme github_light_default")
+require("core.lsp")
+require("core.format")
 
 
+vim.cmd("colorscheme github_dark_default")

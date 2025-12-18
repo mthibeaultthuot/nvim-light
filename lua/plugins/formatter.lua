@@ -7,6 +7,11 @@ return {
         c = { "clang_format" },
         cpp = { "clang_format" },
         python = { "black" },
+        zig = { 'zigfmt' },
+        javascript = { 'prettier' },
+        typescript = { 'prettier' },
+        javascriptreact = { 'prettier' },
+        typescriptreact = { 'prettier' },
       },
       format_on_save = true,
     })
